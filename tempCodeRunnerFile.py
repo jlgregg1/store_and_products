@@ -1,0 +1,5 @@
+safeway = Store("Safeway")
+apple = Product("Apple", 50, "produce")
+safeway.add_product(apple)
+banana = Product("Banana", 25, "produce")
+safeway.add_product(banana).set_clearance("produce", 50).print_product_list()
